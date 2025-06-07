@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="navbar-placeholder">
+    <nav class="navbar">
+      <div class="logo">Portfolio</div>
+      <button class="star-btn">⭐</button>
+    </nav>
+  </div>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hi There! <span class="wave">👋</span></h1>
+      <h2>I'M <span class="highlight">Saido Mohamed</span></h2>
+      <p class="typewriter">Web Developer</p>
+    </div>
+    <div class="hero-img">
+      <img src="./assest/images/home-main.svg" alt="Developer at desk" />
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-text">
+      <h2>LET ME <span class="highlight">INTRODUCE</span> MYSELF</h2>
+      <p>I fell in love with programming and I have at least learnt something, I think... 🤷‍♂️</p>
+      <p>I am fluent in classics like <span class="highlight">HTML, CSS and Javascript</span></p>
+      <p>My field of Interest's are building new <span class="highlight">Web Technologies and Products</span></p>
+      <p>Whenever possible, I also apply my passion for developing products with external tools<span class="highlight"> Visual Studio Code</span> and <span class="highlight">Netlify, Figma</span></p>
+    </div>
+    <div class="about-img">
+      <img src="./assest/images/avatar.svg" alt="Avatar"/>
+    </div>
+  </section>
+  
+  <!-- Professional Skillset -->
+<section class="skills">
+    <h2 class="section-title">Professional Skillset</h2>
+    <div class="skill-grid">
+      <div class="skill-box"><i class="fab fa-html5" style="color: #e34c26;"></i><p>HTML</p></div>
+      <div class="skill-box"><i class="fab fa-css3-alt" style="color: #264de4;"></i><p>CSS</p></div>
+      <div class="skill-box"><i class="fab fa-js" style="color: #f0db4f;"></i><p>JavaScript</p></div>
+    </div>
+  </section>
+  
+  <!-- Tools I Use -->
+  <section class="tools">
+    <h2 class="section-title">Tools I Use</h2>
+    <div class="tool-grid">
+        <div class="tool-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="VS Code">
+            <p>VS Code</p>
+          </div>
+
+          <div class="tool-box">
+            <img src="https://cdn.brandfetch.io/idoW6GB9ca/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1746443990071" alt="Vercel">
+            <p>Netlify</p>
+          </div>
+
+          <div class="tool-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Vercel">
+            <p>Figma</p>
+          </div>
+    </div>
+  </section>
+  
+  <section class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="./assest/projects/rainydays.png" alt="Project 1">
+        <h3>Rainydays</h3>
+        <p>An e-commerce homepage for Rainydays, showcasing stylish and comfortable jackets for men, women, kids, and families.</p>
+        <div class="btn-group">
+          <a href="https://rainydays-assigment.netlify.app/" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/saimoh03/html-css-assignment" class="btn" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./assest/projects/Community-Science-Museum.png" alt="Project 2">
+        <h3>Community Science Museum</h3>
+        <p>A vibrant and interactive science museum website designed to engage kids, teachers, and researchers in the wonders of science.</p>
+        <div class="btn-group">
+          <a href="https://spa1museum.netlify.app/" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/saimoh03/SP1-CA-Submission" target="_blank" class="btn">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./assest/projects/my-blogg-cryptology.png" alt="Project 3">
+        <h3>My Blog - Cryptology</h3>
+        <p>A modern blog platform exploring the fusion of cryptology, blockchain, and personal data security with expert insights and tips.</p>
+        <div class="btn-group">
+          <a href="https://fed1-pe1-saimoh03.netlify.app/" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/saimoh03/FED1-PE1-saimoh03-For-Portfolio" class="btn" target="_blank" >GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>FIND ME ON</h2>
+      <p>Feel free to <span class="highlight">connect</span> with me</p>
+      <div class="social-icons">
+        <a href="https://github.com/saimoh03/" target="_blank" class="icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" class="icon" aria-label="Twitter" onclick="alertClick()" ><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon" aria-label="LinkedIn" onclick="alertClick()"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="icon" aria-label="Instagram" onclick="alertClick()"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>Designed and Developed by Saido Mohamed</p>
+      <p>Copyright © 2025 SB</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+
+    const alertClick = () => {
+      alert("This is a demo button. No functionality implemented yet.");
+    };
+
+  </script>
+</body>
+</html>
