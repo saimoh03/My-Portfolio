@@ -17,7 +17,7 @@ Welcome to my personal portfolio website showcasing my projects and skills as a 
 ### 3. My Blog - Cryptology
 - **Description:** A modern blog platform exploring the fusion of cryptology, blockchain, and personal data security with expert insights and tips.
 - **Live Demo:** [Link to Live Demo](https://fed1-pe1-saimoh03.netlify.app/)
-- **GitHub Repository:** [Link to GitHub](https://github.com/saimoh03/PE1-test-for-netlify)
+- **GitHub Repository:** [Link to GitHub](https://github.com/saimoh03/FED1-PE1-saimoh03-For-Portfolio)
 
 ## Skills
 
